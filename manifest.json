@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "PassGen",
+  "description": "A simple password generator application built with Angular.",
+  "action": {
+    "default_popup": {
+      "width": 400,
+      "height": 600
+    }
+  },
+  "version": "1.0",
+  "icons": {
+    "128": "icon_password.png"
+  },
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_icon": "icon_password.png"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
