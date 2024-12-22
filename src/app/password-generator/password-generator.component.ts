@@ -22,6 +22,12 @@ export class PasswordGeneratorComponent {
       alert('Please enter a password length');
       return;
     }
+
+    if (this.length.value < 4) {
+      alert('Password length must be at least 8 characters');
+      this.length.setValue(8);
+      return;
+    }
     
     const lowercaseChars = 'abcdefghijklmnopqrstuvwxyz';
     const uppercaseChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';

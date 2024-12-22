@@ -12,47 +12,26 @@ ng serve
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-## Code scaffolding
+## Application Overview
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+PassGen is a simple password generator application built with Angular. It allows users to generate secure passwords based on selected criteria such as length, inclusion of uppercase letters, numbers, and symbols.
 
-```bash
-ng generate component component-name
-```
+### Features
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+- Specify the length of the password (minimun 4 chars).
+- Option to include uppercase letters.
+- Option to include numbers.
+- Option to include symbols.
+- Generated password is displayed on the screen.
 
-```bash
-ng generate --help
-```
+## Usage
 
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+1. Open the application in your browser.
+2. Use the form to specify the desired password criteria:
+   - Enter the desired length of the password.
+   - Check the boxes to include uppercase letters, numbers, and/or symbols.
+3. Click the "Generate password" button.
+4. The generated password will be displayed below the form.
 
 ## Additional Resources
 
