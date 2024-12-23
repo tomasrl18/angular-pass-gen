@@ -33,6 +33,10 @@ PassGen is a simple password generator application built with Angular. It allows
 3. Click the "Generate password" button.
 4. The generated password will be displayed below the form.
 
+## Deployed Application
+
+You can view the deployed application at https://passs-gen.vercel.app
+
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
