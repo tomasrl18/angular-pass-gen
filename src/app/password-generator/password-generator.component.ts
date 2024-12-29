@@ -23,7 +23,7 @@ export class PasswordGeneratorComponent {
       return;
     }
 
-    if (this.length.value < 4) {
+    if (this.length.value < 8) {
       alert('Password length must be at least 8 characters');
       this.length.setValue(8);
       return;
