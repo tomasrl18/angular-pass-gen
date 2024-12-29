@@ -12,6 +12,20 @@ ng serve
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
+## Running tests
+
+To execute the unit tests for this application, run:
+
+```bash
+ng test
+```
+
+This will launch the test runner in the interactive watch mode.
+
+## Continuous Integration
+
+The tests for this application are also configured to run automatically using GitHub Actions. This ensures that all tests are executed on every push and pull request to the repository, helping to maintain code quality and catch issues early.
+
 ## Application Overview
 
 PassGen is a simple password generator application built with Angular. It allows users to generate secure passwords based on selected criteria such as length, inclusion of uppercase letters, numbers, and symbols.
